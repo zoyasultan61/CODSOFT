@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoya-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.01rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+            margin: 60px 0px;
+        }
+
+        .leftsection {
+            font-size: 2rem;
+            margin: 30px 0;
+
+        }
+        .leftsection .button{
+            padding: 50px 0;
+        }
+    
+
+    
+        .leftsection .btn{
+          padding: 12px;
+          color: white;
+          border: 2px solid white;
+          background: #1e2167;
+          border-radius: 6px;
+          cursor: pointer;
+          font-size: 20px;
+        }
+
+        .rightsection img {
+            width: 80%
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        main hr {
+            border: 0;
+            background-color: #9b97f3;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .secondsection {
+            font-size: 1.6rem;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .secondsection .box {
+            background-color: white;
+            width: 79vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 23px;
+            top: -32px;
+            left: -9px;
+            position: relative;
+        }
+
+        .vertical {
+            font-size: small;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 10px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 80px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+
+        }
+
+        .secondsection.h1 {
+            font-size: 78px;
+        }
+
+        .footer {
+            background-color: #0e0e1a;
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Zoya's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Zoya</span>
+
+                <div>and I am a Passionate</div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="zs.jpg" alt="zoya's image">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="developer.jpeg" alt="">
+                    <div class="vertical-title">
+                        HTML-Developer pintrest(2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor harum fugiat corrupti quidem
+                        totam alias eaque aliquam! Aliquid ea quidem itaque veritatis, deleniti ullam ipsam, magnam,
+                        officiis maiores laudantium eos!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="insta.webp" alt="">
+                    <div class="vertical-title">
+                        JAVA-Developer Instagram(2023-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor harum fugiat corrupti quidem
+                        totam alias eaque aliquam! Aliquid ea quidem itaque veritatis, deleniti ullam ipsam, magnam,
+                        officiis maiores laudantium eos!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Twitter.png" alt="">
+                    <div class="vertical-title">
+                        HTML-Developer Twitter(2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor harum fugiat corrupti quidem
+                        totam alias eaque aliquam! Aliquid ea quidem itaque veritatis, deleniti ullam ipsam, magnam,
+                        officiis maiores laudantium eos!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="html.png" alt="">
+                    <div class="vertical-title">
+                        HTML-Developer(2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor harum fugiat corrupti quidem
+                        totam alias eaque aliquam! Aliquid ea quidem itaque veritatis, deleniti ullam ipsam, magnam,
+                        officiis maiores laudantium eos!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="youtube.png" alt="">
+                    <div class="vertical-title">
+                        HTML-Developer YouTube (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor harum fugiat corrupti quidem
+                        totam alias eaque aliquam! Aliquid ea quidem itaque veritatis, deleniti ullam ipsam, magnam,
+                        officiis maiores laudantium eos!
+                    </div>
+                </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Zoya's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+
+            Copyright &#169 zoyasportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Coder.', 'Web Designer.', 'Learner.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
